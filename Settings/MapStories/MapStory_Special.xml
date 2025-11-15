@@ -1,0 +1,21 @@
+<Stories><List>
+	<Story Name="Secrets_Magic_FLTYS"  Parent="BaseFillingStory">
+		<DisplayName>回梦游仙</DisplayName>
+		<Desc>[NAME]来到[PLACE]，发现了一个隐蔽的洞穴，透出岁月的痕迹。</Desc>
+		<Selections>
+			<li>
+				<Display>探索洞穴</Display>
+				<OKResult>me:AddMsg(XT("[NAME]探索中发现了一座女娲神像，赶忙找了一块空地坐下，以神念参悟神像。"));me:AddMsg(XT("定境之中不知多久，[NAME]突然福至心灵，从女娲神像上破碎的文字中领悟出一门神通[color=#FF0000]《飞龙探云手》[/color]！"));me:DropEsoteric("Magic_Esoterica_FLTYS", 1);story:FinishSecret();</OKResult>
+				<NOResult>me:AddMsg(XT("[NAME]探索中发现了一座女娲神像，赶忙找了一块空地坐下，以神念参悟神像。"));me:AddMsg(XT("定境之中不知多久，[NAME]始终找不到那丝灵感。随着女娲神像上的字迹逐渐消失，[NAME]只能无奈离去。"));story:FinishSecret();</NOResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg(XT("[NAME]想了想，决定还是不冒险，转身离去。"));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

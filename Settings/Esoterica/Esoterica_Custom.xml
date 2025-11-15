@@ -1,0 +1,14 @@
+﻿<Esotericas><List>
+	<!--学习神通 飞龙探云手-->
+	<Esoterica Name="Magic_Esoterica_FLTYS">
+		<DisplayName>飞龙探云手</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhoutian01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Qi</GLevel>
+		<EffectDesc>[size=10][color=#D06508]习得神通：飞龙探云手\n 巴蜀盗侠李寒空四处劫富济贫，创神通《飞龙探云手》。 王大仙游历天下偶遇时习得，流传于后人。此神通可脱光目标于无形，可谓居家旅行，必备良技。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Magic_WRJ_FLTYS</li>
+		</Magics>
+	</Esoterica>
+</List></Esotericas>
